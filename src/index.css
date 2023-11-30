@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Poppins:wght@300;400;600;700&display=swap');
+
+:root {
+  --main-color: #1F2937;
+  --primary-color: #0E82FD;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #F2F6F6 !important;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+  overflow-y: scroll;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li a,
+a {
+  text-decoration: none;
+}
+
+/* Default css area start  */
+h1 {
+  font-weight: 600;
+  font-size: 48px;
+  margin-bottom: 25px;
+  color: var(--main-color);
+}
+
+
+/*  ==========   NavBar area start  ==========  */
+
+.navbarMain {
+  padding: 15px 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.navbarMainText {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo area start  */
+.logoSub a {
+  color: var(--main-color);
+  text-decoration: none;
+  font-family: 'Nosifer', sans-serif;
+  font-size: 18px;
+}
+
+.NavBarMenu ul {
+  display: flex;
+}
+
+.NavBarMenu ul li a {
+  color: var(--main-color);
+  font-size: 18px;
+  display: inline-block;
+  text-transform: capitalize;
+  padding: 6px 12px;
+  font-weight: 500;
+}
+
+.NavBarMenu ul li a:hover {
+  color: var(--primary-color);
+}
+
+/*  ==========   NavBar area End  ==========  */
+
+
+/*============  Start Footer Section  ===========*/
+
+.footerMain {
+  padding: 80px 0;
+  background: #F7F7F7;
+}
+
+/* logo area  */
+.footerLogo>a {
+  font-weight: 700;
+  font-size: 24px;
+  padding-bottom: 24px;
+  color: #000;
+  display: inline-block;
+}
+
+.footerInput {
+  padding: 10px 0;
+}
+
+.footerInput {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.footerInput .form-control {
+  padding: 12px;
+  color: #505050;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  border-radius: 12px;
+  border: 1px solid #DBDBDB;
+  background: var(--White, #FFF);
+  max-width: 60%;
+}
+
+.frombtn {
+  color: #FFF;
+  border: none;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  padding: 12px 24px;
+  border-radius: 12px;
+  border: 1px solid var(--Black, #000);
+  background: #000;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+
+.frombtn:hover {
+  opacity: .9;
+}
+
+.footerText p a {
+  text-decoration: underline;
+  color: #000;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+
+.footerText p a:hover {
+  color: #A5A5A5;
+}
+
+/* menu  */
+.browserMenu h3 {
+  padding-bottom: 16px;
+  color: var(--Black, #000);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  /* 24px */
+}
+
+.browserMenu ul li a {
+  color: var(--Black, #000);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  display: inline-block;
+  padding: 8px 0;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+
+.browserMenu ul li a:hover {
+  text-decoration: underline;
+}
+
+
+/* Footer Bootom area start  */
+.footerBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-top: 32px;
+  border-top: 1px solid #D4D4D4;
+  margin-top: 80px;
+}
+
+.footerBottom ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.footerBottom ul li a {
+  color: var(--Black, #000);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  -webkit-text-decoration-line: underline;
+  text-decoration-line: underline;
+  display: inline-block;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  padding: 4px 13px;
+}
+
+.footerBottom ul li a:hover {
+  color: #A5A5A5;
+}
+
+
+
+/*============  End Footer Section  ===========*/
+
+
+/*  ==========   Banner area start  ==========  */
+
+.bannerMain {
+  padding: 70px 0;
+}
+
+.singleSiderBanner img {
+  width: 100%;
+  max-width: 400px;
+  object-fit: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.singleSiderBannerMainSub {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.singleSiderBanner {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.singleSiderBannerLeft,
+.singleSiderBanner {
+  flex: 0 0 50%;
+}
+
+
+
+.singleSiderBannerLeft h1 span {
+  color: var(--primary-color);
+}
+
+.singleSiderBannerLeft p {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.singleSiderBannerLeft a {
+  font-weight: 500;
+  border-radius: 8px;
+  margin: 0;
+  padding: 12px 15px;
+  text-decoration: none;
+  text-align: center;
+  min-width: 200px;
+  display: inline-block;
+  background-color: #0E82FD;
+  border: 1px solid #0E82FD;
+  color: #ffffff;
+  font-size: 18px;
+  box-shadow: inset 0 0 0 0 #ffffff;
+  -webkit-transition: 0.5s;
+  text-transform: capitalize;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.singleSiderBannerLeft a:hover {
+  border: 1px solid #0E82FD;
+  background-color: transparent;
+  color: #0E82FD;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  color: #000 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+/*  ==========   Banner area End  ==========  */
+
+
+
+/*  ==========   Best Doctor area start  ==========  */
+
+.bestDoctor {
+  padding-bottom: 70px;
+}
+
+.singleBestDoctor {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.singleBestDoctorImg img {
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.singleBestDoctorText h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.singleBestDoctorText h3:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.singleBestDoctorText {
+  padding-top: 6px;
+}
+
+
+
+.singleBestDoctorText p {
+  padding: 0;
+  margin: 0;
+}
+
+.singleBestDoctorText a {
+  color: #000;
+  text-decoration: none;
+}
+
+.singleBestDoctorText a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+
+
+.faq-section {
+  background-color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  padding: 0 0 140px;
+}
+
+@media (max-width: 1199.98px) {
+  .faq-section {
+    margin: 0;
+    padding: 0 0 80px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .faq-section {
+    margin: 0;
+    padding: 0 0 40px;
+  }
+}
+
+.faq-img {
+  position: relative;
+}
+
+@media (max-width: 991.98px) {
+  .faq-img {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .faq-img {
+    margin-bottom: 70px;
+  }
+}
+
+.faq-patients-count {
+  background: #ffffff;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.03), 0px 64.81px 46.85px rgba(0, 0, 0, 0.0228), 0px 38.52px 25.48px rgba(0, 0, 0, 0.0182), 0px 20px 13px rgba(0, 0, 0, 0.015), 0px 8.15px 6.52px rgba(0, 0, 0, 0.0118), 0px 1.85px 3.15px rgba(0, 0, 0, 0.0072);
+  border-radius: 10px;
+  padding: 15px;
+  min-width: 222px;
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 991.98px) {
+  .faq-patients-count {
+    justify-content: start;
+    -webkit-justify-content: start;
+    -ms-flex-pack: start;
+    box-shadow: none;
+    border: 1px solid #F3F3F3;
+  }
+}
+
+.faq-smile-img {
+  margin-right: 15px;
+}
+
+.faq-patients-content h4 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 3px;
+}
+
+@media (max-width: 767.98px) {
+  .faq-patients-content h4 {
+    font-size: 20px;
+  }
+}
+
+.faq-patients-content p {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 767.98px) {
+  .faq-patients-content p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .faq-patients-content {
+    text-align: left;
+  }
+}
+
+.faq-info .accordion-item {
+  background: #F8F8F8;
+  border: 0;
+  border-radius: 0;
+  margin: 0 0 24px;
+  padding: 15px;
+}
+
+.faq-info .accordion-item:last-child {
+  margin-bottom: 0;
+}
+
+.faq-info .accordion-item .accordion-body {
+  margin-top: 15px;
+  padding: 15px 0 0;
+  border-top: 1px solid #E2E8F0;
+}
+
+@media (max-width: 767.98px) {
+  .faq-info .accordion-item {
+    margin-bottom: 20px;
+  }
+}
+
+.faq-info .accordion-header {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.faq-info .accordion-button {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1F2937;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  position: relative;
+  cursor: pointer;
+}
+
+.faq-info .accordion-button:hover {
+  border: 0;
+}
+
+.faq-info .accordion-button:after {
+  content: "\e9b1";
+  font-family: "feather";
+  font-size: 20px;
+  background: none;
+  color: #0E82FD;
+  background: #ffffff;
+  width: 32px;
+  height: 32px;
+  border-radius: 5px;
+}
+
+@media (max-width: 767.98px) {
+  .faq-info .accordion-button:after {
+    position: absolute;
+    right: 0;
+  }
+}
+
+.faq-info .accordion-button:not(.collapsed)::after {
+  content: "\e996";
+  color: #ffffff;
+  background: #0E82FD;
+}
+
+@media (max-width: 767.98px) {
+  .faq-info .accordion-button {
+    font-size: 14px;
+    padding-right: 30px;
+    line-height: 24px;
+  }
+}
+
+.faq-info .accordion-content p {
+  color: #6B7280;
+  margin-bottom: 0;
+}
+
+.partners-section {
+  background-color: #ffffff;
+  padding: 80px 0;
+}
+
+/*  ==========   NavBar area start  ==========  */
+/*  ==========   NavBar area start  ==========  */
+/*  ==========   NavBar area start  ==========  */
+/*  ==========   NavBar area start  ==========  */
