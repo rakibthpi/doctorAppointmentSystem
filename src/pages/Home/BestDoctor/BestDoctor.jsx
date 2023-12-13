@@ -17,7 +17,7 @@ const BestDoctor = () => {
         pauseOnFocus: false,
         pauseOnHover: false,
         autoplay: true,
-        margin: '20px',
+        margin: '20',
         initialSlide: 0,
         edgeFriction: 1,
         responsive: [
