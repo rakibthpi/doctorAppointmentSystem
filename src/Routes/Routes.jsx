@@ -3,12 +3,14 @@ import {
 } from "react-router-dom";
 import Main from "../Layout/Main";
 import Home from "../pages/Home/Home";
-import Login from "../pages/Shared/Login/Login";
-import Register from "../pages/Shared/Register/Register";
 import Contact from "../pages/Contact/Contact";
 import AboutUs from "../pages/AboutUs/AboutUs";
 import Doctor from "../pages/Doctor/Doctor";
 import Appointment from "../pages/Appointment/Appointment";
+import Login from "../pages/Login/Login";
+import Register from "../pages/Register/Register";
+import PrivateRoute from "./PrivateRoute";
+import Profile from "../pages/profile/Profile";
 
 export const router = createBrowserRouter([
     {
@@ -33,7 +35,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/doctor',
-                element: <Doctor></Doctor>
+                element: <PrivateRoute><Doctor></Doctor></PrivateRoute>
             },
             {
                 path: '/aboutus',
@@ -41,7 +43,10 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/appointment',
-                element: <Appointment></Appointment>
+                element: <PrivateRoute> <Appointment></Appointment></PrivateRoute>
+            }, {
+                path: '/profile',
+                element: <Profile></Profile>
             }
         ]
     },

@@ -846,6 +846,22 @@ button.btn.btn-primary {
   font-size: 16px;
 }
 
+.articlesMain {
+  padding-bottom: 90px;
+}
+
+.articlesMain .card-body {
+  padding: 20px
+}
+
+.articlesMain .card {
+  border-radius: 12px;
+}
+
+.articlesMain .card img {
+  border-radius: 12px 12px 0 0;
+}
+
 /* Tab area start  */
 .tabMenuArea {
   display: flex;
@@ -858,4 +874,45 @@ ul.tabMenuArea li {
   padding: 10px 20px;
   display: inline-block;
   cursor: pointer;
+}
+
+.react-tabs__tab--selected {
+  background: #66cee7;
+  color: #fff;
+}
+
+.btnall {
+  background-color: #2980b9;
+  color: #fff;
+  font-size: 14px;
+  border: 0px;
+  padding: 8px 17px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.card {
+  height: 100%;
+}
+
+.appointmentBanner {
+  padding: 90px 0;
+}
+
+.profile {
+  padding: 70px 0;
+}
+
+.profileText {
+  text-align: center;
+}
+
+.profileCard {
+  background-color: #fff;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 12px;
 }

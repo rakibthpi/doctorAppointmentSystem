@@ -1,11 +1,11 @@
-// import React from 'react';
+
 import img1 from "../../../assets/blog/blog-11.jpg";
 import img2 from "../../../assets/blog/blog-12.jpg";
 import img3 from "../../../assets/blog/blog-13.jpg";
 import img4 from "../../../assets/blog/blog-14.jpg";
 // import img5 from "../../../assets/doctors/doctor-05.jpg";
 
-import { Button, Card } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 
 
@@ -25,7 +25,6 @@ const Articles = () => {
                                         Some quick example text to build on the card title and make up the
                                         bulk of the s content.
                                     </Card.Text>
-                                    <Button variant="primary">Go somewhere</Button>
                                 </Card.Body>
                             </Card>
                         </div>
@@ -38,7 +37,6 @@ const Articles = () => {
                                         Some quick example text to build on the card title and make up the
                                         bulk of the s content.
                                     </Card.Text>
-                                    <Button variant="primary">Go somewhere</Button>
                                 </Card.Body>
                             </Card>
                         </div>
@@ -51,7 +49,6 @@ const Articles = () => {
                                         Some quick example text to build on the card title and make up the
                                         bulk of the s content.
                                     </Card.Text>
-                                    <Button variant="primary">Go somewhere</Button>
                                 </Card.Body>
                             </Card>
                         </div>
@@ -64,7 +61,6 @@ const Articles = () => {
                                         Some quick example text to build on the card title and make up the
                                         bulk of the s content.
                                     </Card.Text>
-                                    <Button variant="primary">Go somewhere</Button>
                                 </Card.Body>
                             </Card>
                         </div>

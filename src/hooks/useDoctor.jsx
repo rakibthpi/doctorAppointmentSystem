@@ -4,7 +4,7 @@ const useDoctor = () => {
     const [doctors, setDoctors] = useState([]);
     const [loading, setLoading] = useState(true);
     useEffect(() => {
-        fetch('data.json')
+        fetch('http://localhost:5000/doctor')
             .then(res => res.json())
             .then(data => {
                 setDoctors(data)

@@ -34,7 +34,7 @@ const Banner = () => {
                                     <div className="singleSiderBannerLeft">
                                         <h1>Consult <span>Best Doctors</span> Your Nearby Location.</h1>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
-                                        <Link to={''}>Start a Consult</Link>
+                                        <Link to={'/appointment'}> Appointment</Link>
                                     </div>
                                     <div className="singleSiderBanner">
                                         <img src={img1} alt="photos" />
@@ -46,7 +46,7 @@ const Banner = () => {
                                     <div className="singleSiderBannerLeft">
                                         <h1>Consult <span>Best Doctors</span> Your Nearby Location.</h1>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
-                                        <Link to={''}>Start a Consult</Link>
+                                        <Link to={'/appointment'}> Appointment</Link>
                                     </div>
                                     <div className="singleSiderBanner">
                                         <img src={img2} alt="photos" />
@@ -58,7 +58,7 @@ const Banner = () => {
                                     <div className="singleSiderBannerLeft">
                                         <h1>Consult <span>Best Doctors</span> Your Nearby Location.</h1>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
-                                        <Link to={''}>Start a Consult</Link>
+                                        <Link to={'/appointment'}> Appointment</Link>
                                     </div>
                                     <div className="singleSiderBanner">
                                         <img src={img3} alt="photos" />
@@ -70,7 +70,7 @@ const Banner = () => {
                                     <div className="singleSiderBannerLeft">
                                         <h1>Consult <span>Best Doctors</span> Your Nearby Location.</h1>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
-                                        <Link to={''}>Start a Consult</Link>
+                                        <Link to={'/appointment'}> Appointment</Link>
                                     </div>
                                     <div className="singleSiderBanner">
                                         <img src={img4} alt="photos" />
@@ -82,7 +82,7 @@ const Banner = () => {
                                     <div className="singleSiderBannerLeft">
                                         <h1>Consult <span>Best Doctors</span> Your Nearby Location.</h1>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
-                                        <Link to={''}>Start a Consult</Link>
+                                        <Link to={'/appointment'}> Appointment</Link>
                                     </div>
                                     <div className="singleSiderBanner">
                                         <img src={img5} alt="photos" />

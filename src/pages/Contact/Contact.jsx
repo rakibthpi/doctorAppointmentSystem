@@ -1,12 +1,42 @@
-import { Button, Col, Form, Row } from "react-bootstrap";
 
+import { Button, Col, Form, Row } from "react-bootstrap";
 const Contact = () => {
+
+    // const { user } = useContext(AuthContext);
+    // const { register, handleSubmit } = useForm();
+
+    // const onSubmit = data => {
+    //     const orderItem = { doctorId: data.id, img, name, email }
+    //     fetch('http://localhost:5000/appointment', {
+    //         method: "POST",
+    //         headers: {
+    //             'content-type': 'doctorMethod'
+    //         },
+    //         body: JSON.stringify()
+    //     })
+    //         .then(res => res.json(orderItem))
+    //         .then(data => {
+    //             if (data.inseertedId) {
+    //                 Swal.fire({
+    //                     position: "top-end",
+    //                     icon: "success",
+    //                     title: "Your work has been saved",
+    //                     showConfirmButton: false,
+    //                     timer: 1500
+    //                 });
+    //             }
+    //         })
+
+    // };
+
+
+
     return (
         <div className="containerMain">
             <div className="container">
                 <Row>
                     <Col xs md={{ span: 8, offset: 2 }} className="ofset-md-2" >
-                        <Form className="contact">
+                        <Form className="contact"  >
                             <Row className="mb-3">
                                 <Form.Group as={Col} controlId="formGridEmail">
                                     <Form.Label>Email</Form.Label>
@@ -14,41 +44,8 @@ const Contact = () => {
                                 </Form.Group>
 
                                 <Form.Group as={Col} controlId="formGridPassword">
-                                    <Form.Label>Password</Form.Label>
-                                    <Form.Control type="password" placeholder="Password" />
-                                </Form.Group>
-                            </Row>
-
-                            <Form.Group className="mb-3" controlId="formGridAddress1">
-                                <Form.Label>Address</Form.Label>
-                                <Form.Control placeholder="1234 Main St" />
-                            </Form.Group>
-
-                            <Form.Group className="mb-3" controlId="formGridAddress2">
-                                <Form.Label>Address 2</Form.Label>
-                                <Form.Control placeholder="Apartment, studio, or floor" />
-                            </Form.Group>
-
-                            <Row className="mb-3">
-                                <Form.Group as={Col} controlId="formGridCity">
-                                    <Form.Label>City</Form.Label>
-                                    <Form.Control />
-                                </Form.Group>
-
-                                <Form.Group as={Col} controlId="formGridState">
-                                    <Form.Label>State</Form.Label>
-                                    <Form.Select defaultValue="Choose...">
-                                        <option>Choose...</option>
-                                        <option>...</option>
-                                    </Form.Select>
-                                </Form.Group>
-
-                                <Form.Group as={Col} controlId="formGridZip">
-                                    <Form.Label>Zip</Form.Label>
-                                    <Form.Select defaultValue="Choose...">
-                                        <option>Choose...</option>
-                                        <option>...</option>
-                                    </Form.Select>
+                                    <Form.Label>Phone Number</Form.Label>
+                                    <Form.Control type="Number" placeholder="Number" />
                                 </Form.Group>
                             </Row>
 

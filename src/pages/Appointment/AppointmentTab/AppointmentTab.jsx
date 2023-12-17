@@ -22,7 +22,7 @@ const AppointmentTab = () => {
                         </TabList>
                         {/* First Tab body area  */}
                         <TabPanel>
-                            <Row>
+                            <Row className="g-4">
                                 {
                                     Pediatrician.map((doctor) => <SingleDoctor
                                         key={doctor.id}
@@ -33,7 +33,7 @@ const AppointmentTab = () => {
                         </TabPanel>
                         {/* Second Tab body area  */}
                         <TabPanel>
-                            <Row>
+                            <Row className="g-4">
                                 {
                                     Cardiologist.map((doctor) => <SingleDoctor
                                         key={doctor.id}
@@ -44,7 +44,7 @@ const AppointmentTab = () => {
                         </TabPanel>
                         {/* Third Tab body area  */}
                         <TabPanel>
-                            <Row>
+                            <Row className="g-4">
                                 {
                                     Dermatologist.map((doctor) => <SingleDoctor
                                         key={doctor.id}
